@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "different-pipeline-generator"
+version = "0.1.0"
+description = "Generate visually coherent but identity-diverse synthetic face rosters."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+images = ["Pillow>=10"]
+embedding = [
+  "insightface>=0.7.3",
+  "onnxruntime>=1.17",
+  "opencv-python-headless>=4.9",
+  "Pillow>=10",
+]
+gpu = [
+  "accelerate>=0.30",
+  "diffusers==0.29.2",
+  "insightface>=0.7.3",
+  "opencv-python-headless>=4.9",
+  "onnxruntime-gpu>=1.19",
+  "peft==0.7.1",
+  "Pillow>=10",
+  "torch>=2.5",
+  "transformers==4.36.0",
+]
+dev = ["Pillow>=10", "pytest>=8"]
+tokenization = ["transformers==4.36.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,34 @@
+{
+  "framing": "head-and-shoulders portrait, plain neutral background, sharp focus, natural skin texture",
+  "seeds": [1000, 1001, 1002, 1003, 1004, 1005],
+  "neg_anti_beauty": "model, fashion photoshoot, airbrushed, heavy makeup, symmetrical face, flawless skin, glamour, magazine cover, cartoon, illustration, 3d render, cgi, deformed, disfigured, extra fingers, watermark, text, clean-shaven, blonde hair, grey hair, elderly, young boy",
+  "neg_naive": "lowres, blurry, deformed, disfigured, extra fingers, watermark, text, cartoon, illustration, 3d render, clean-shaven, blonde hair, grey hair, elderly",
+
+  "methods": {
+    "fx_base": {
+      "note": "LOCKED 4 features, identical prompt, variety from seeds only -> collapse control",
+      "ckpt": "RealVisXL_V5.0_fp16.safetensors", "cfg": 5.0, "neg": "neg_anti_beauty",
+      "identities": [
+        {"id": "xb1", "sex": "m", "prompt": "a 30-year-old Spanish man, short black hair, full black beard, plain"},
+        {"id": "xb2", "sex": "m", "prompt": "a 30-year-old Spanish man, short black hair, full black beard, plain"},
+        {"id": "xb3", "sex": "m", "prompt": "a 30-year-old Spanish man, short black hair, full black beard, plain"},
+        {"id": "xb4", "sex": "m", "prompt": "a 30-year-old Spanish man, short black hair, full black beard, plain"},
+        {"id": "xb5", "sex": "m", "prompt": "a 30-year-old Spanish man, short black hair, full black beard, plain"},
+        {"id": "xb6", "sex": "m", "prompt": "a 30-year-old Spanish man, short black hair, full black beard, plain"}
+      ]
+    },
+
+    "fx_slot": {
+      "note": "LOCKED: 30yo Spanish man, short black hair, full black beard. VARY ONLY build/face-shape/skin/plainness",
+      "ckpt": "RealVisXL_V5.0_fp16.safetensors", "cfg": 5.0, "neg": "neg_anti_beauty",
+      "identities": [
+        {"id": "xs1", "sex": "m", "prompt": "a 30-year-old Spanish man, short black hair, full black beard, gaunt and hollow-cheeked, weathered sun-damaged skin, plain, forgettable face"},
+        {"id": "xs2", "sex": "m", "prompt": "a 30-year-old Spanish man, short black hair, full black beard, heavyset with a full round face, ruddy complexion, ordinary-looking"},
+        {"id": "xs3", "sex": "m", "prompt": "a 30-year-old Spanish man, short black hair, full black beard, lean and wiry, narrow face, freckled olive skin, homely"},
+        {"id": "xs4", "sex": "m", "prompt": "a 30-year-old Spanish man, short black hair, full black beard, stocky with a broad flat face and thick neck, pale indoor complexion, plain"},
+        {"id": "xs5", "sex": "m", "prompt": "a 30-year-old Spanish man, short black hair, full black beard, soft-featured with tired sunken eyes, sallow skin, unremarkable face"},
+        {"id": "xs6", "sex": "m", "prompt": "a 30-year-old Spanish man, short black hair, full black beard, barrel-chested with a wide jaw and deep-set eyes, rugged weathered skin, plain"}
+      ]
+    }
+  }
+}

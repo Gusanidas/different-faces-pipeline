@@ -1,0 +1,803 @@
+{
+  "schema_version": "different-faces-readme-sweeps/v1",
+  "embedding_model": "InsightFace buffalo_l recognition model",
+  "image_count": 144,
+  "face_detection_failures": [],
+  "experiments": {
+    "lens_framing": {
+      "realvis": {
+        "environmental_35mm": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.4230015774567922,
+            "std": 0.0577025963771957,
+            "min": 0.349437415599823,
+            "median": 0.42134931683540344,
+            "p95": 0.5004724860191345,
+            "max": 0.5075443983078003,
+            "maximum_cosine_distance": 0.650562584400177,
+            "most_distant_pair": {
+              "a": "environmental_35mm-seed-4302",
+              "b": "environmental_35mm-seed-4303",
+              "cosine_similarity": 0.349437415599823,
+              "cosine_distance": 0.650562584400177
+            },
+            "most_similar_pair": {
+              "a": "environmental_35mm-seed-4300",
+              "b": "environmental_35mm-seed-4301",
+              "cosine_similarity": 0.5075443983078003,
+              "cosine_distance": 0.4924556016921997
+            }
+          }
+        },
+        "phone_close": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.36856325964132947,
+            "std": 0.09669519979389916,
+            "min": 0.2691090703010559,
+            "median": 0.3369484394788742,
+            "p95": 0.5220295190811157,
+            "max": 0.5637971758842468,
+            "maximum_cosine_distance": 0.7308909296989441,
+            "most_distant_pair": {
+              "a": "phone_close-seed-4300",
+              "b": "phone_close-seed-4301",
+              "cosine_similarity": 0.2691090703010559,
+              "cosine_distance": 0.7308909296989441
+            },
+            "most_similar_pair": {
+              "a": "phone_close-seed-4300",
+              "b": "phone_close-seed-4303",
+              "cosine_similarity": 0.5637971758842468,
+              "cosine_distance": 0.4362028241157532
+            }
+          }
+        },
+        "studio_85mm": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.4398940106232961,
+            "std": 0.04218624158107843,
+            "min": 0.38896656036376953,
+            "median": 0.42797037959098816,
+            "p95": 0.49852047860622406,
+            "max": 0.5010068416595459,
+            "maximum_cosine_distance": 0.6110334396362305,
+            "most_distant_pair": {
+              "a": "studio_85mm-seed-4300",
+              "b": "studio_85mm-seed-4302",
+              "cosine_similarity": 0.38896656036376953,
+              "cosine_distance": 0.6110334396362305
+            },
+            "most_similar_pair": {
+              "a": "studio_85mm-seed-4300",
+              "b": "studio_85mm-seed-4303",
+              "cosine_similarity": 0.5010068416595459,
+              "cosine_distance": 0.4989931583404541
+            }
+          }
+        },
+        "prompt_centroids": {
+          "pair_count": 3,
+          "mean": 0.7208902637163798,
+          "std": 0.06628250286323652,
+          "min": 0.6633930206298828,
+          "median": 0.6855248808860779,
+          "p95": 0.8009300887584686,
+          "max": 0.8137528896331787,
+          "maximum_cosine_distance": 0.3366069793701172,
+          "most_distant_pair": {
+            "a": "environmental_35mm",
+            "b": "phone_close",
+            "cosine_similarity": 0.6633930206298828,
+            "cosine_distance": 0.3366069793701172
+          },
+          "most_similar_pair": {
+            "a": "phone_close",
+            "b": "studio_85mm",
+            "cosine_similarity": 0.8137528896331787,
+            "cosine_distance": 0.1862471103668213
+          }
+        }
+      },
+      "zimage": {
+        "environmental_35mm": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.5136858820915222,
+            "std": 0.07961709623778762,
+            "min": 0.3852810859680176,
+            "median": 0.5213053226470947,
+            "p95": 0.6073068678379059,
+            "max": 0.610018253326416,
+            "maximum_cosine_distance": 0.6147189140319824,
+            "most_distant_pair": {
+              "a": "environmental_35mm-seed-4300",
+              "b": "environmental_35mm-seed-4301",
+              "cosine_similarity": 0.3852810859680176,
+              "cosine_distance": 0.6147189140319824
+            },
+            "most_similar_pair": {
+              "a": "environmental_35mm-seed-4300",
+              "b": "environmental_35mm-seed-4303",
+              "cosine_similarity": 0.610018253326416,
+              "cosine_distance": 0.389981746673584
+            }
+          }
+        },
+        "phone_close": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.5661775171756744,
+            "std": 0.06093552073362983,
+            "min": 0.5077754259109497,
+            "median": 0.5483117997646332,
+            "p95": 0.6603376269340515,
+            "max": 0.6790653467178345,
+            "maximum_cosine_distance": 0.4922245740890503,
+            "most_distant_pair": {
+              "a": "phone_close-seed-4301",
+              "b": "phone_close-seed-4302",
+              "cosine_similarity": 0.5077754259109497,
+              "cosine_distance": 0.4922245740890503
+            },
+            "most_similar_pair": {
+              "a": "phone_close-seed-4301",
+              "b": "phone_close-seed-4303",
+              "cosine_similarity": 0.6790653467178345,
+              "cosine_distance": 0.3209346532821655
+            }
+          }
+        },
+        "studio_85mm": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.6366640826066335,
+            "std": 0.07346641017016214,
+            "min": 0.5083165168762207,
+            "median": 0.6412281692028046,
+            "p95": 0.7275322377681732,
+            "max": 0.7418452501296997,
+            "maximum_cosine_distance": 0.4916834831237793,
+            "most_distant_pair": {
+              "a": "studio_85mm-seed-4301",
+              "b": "studio_85mm-seed-4303",
+              "cosine_similarity": 0.5083165168762207,
+              "cosine_distance": 0.4916834831237793
+            },
+            "most_similar_pair": {
+              "a": "studio_85mm-seed-4302",
+              "b": "studio_85mm-seed-4303",
+              "cosine_similarity": 0.7418452501296997,
+              "cosine_distance": 0.2581547498703003
+            }
+          }
+        },
+        "prompt_centroids": {
+          "pair_count": 3,
+          "mean": 0.8022100130716959,
+          "std": 0.0032589425047823226,
+          "min": 0.7977185249328613,
+          "median": 0.8035607933998108,
+          "p95": 0.8051717281341553,
+          "max": 0.8053507208824158,
+          "maximum_cosine_distance": 0.20228147506713867,
+          "most_distant_pair": {
+            "a": "environmental_35mm",
+            "b": "phone_close",
+            "cosine_similarity": 0.7977185249328613,
+            "cosine_distance": 0.20228147506713867
+          },
+          "most_similar_pair": {
+            "a": "phone_close",
+            "b": "studio_85mm",
+            "cosine_similarity": 0.8053507208824158,
+            "cosine_distance": 0.19464927911758423
+          }
+        }
+      }
+    },
+    "scandinavian_features": {
+      "realvis": {
+        "big_eyes": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.5354449351628622,
+            "std": 0.09786009148151423,
+            "min": 0.32594943046569824,
+            "median": 0.5672748982906342,
+            "p95": 0.6127634197473526,
+            "max": 0.614372730255127,
+            "maximum_cosine_distance": 0.6740505695343018,
+            "most_distant_pair": {
+              "a": "big_eyes-seed-4201",
+              "b": "big_eyes-seed-4202",
+              "cosine_similarity": 0.32594943046569824,
+              "cosine_distance": 0.6740505695343018
+            },
+            "most_similar_pair": {
+              "a": "big_eyes-seed-4200",
+              "b": "big_eyes-seed-4201",
+              "cosine_similarity": 0.614372730255127,
+              "cosine_distance": 0.38562726974487305
+            }
+          }
+        },
+        "pointy_chin": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.5496628632148107,
+            "std": 0.059200202715814144,
+            "min": 0.4436763823032379,
+            "median": 0.5573200583457947,
+            "p95": 0.6211283802986145,
+            "max": 0.63112872838974,
+            "maximum_cosine_distance": 0.5563236176967621,
+            "most_distant_pair": {
+              "a": "pointy_chin-seed-4201",
+              "b": "pointy_chin-seed-4203",
+              "cosine_similarity": 0.4436763823032379,
+              "cosine_distance": 0.5563236474990845
+            },
+            "most_similar_pair": {
+              "a": "pointy_chin-seed-4201",
+              "b": "pointy_chin-seed-4202",
+              "cosine_similarity": 0.63112872838974,
+              "cosine_distance": 0.36887127161026
+            }
+          }
+        },
+        "small_eyes": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.5338191986083984,
+            "std": 0.08332005669619716,
+            "min": 0.3576335310935974,
+            "median": 0.57154181599617,
+            "p95": 0.5989572107791901,
+            "max": 0.6044467687606812,
+            "maximum_cosine_distance": 0.6423664689064026,
+            "most_distant_pair": {
+              "a": "small_eyes-seed-4201",
+              "b": "small_eyes-seed-4202",
+              "cosine_similarity": 0.3576335310935974,
+              "cosine_distance": 0.6423664689064026
+            },
+            "most_similar_pair": {
+              "a": "small_eyes-seed-4200",
+              "b": "small_eyes-seed-4203",
+              "cosine_similarity": 0.6044467687606812,
+              "cosine_distance": 0.39555323123931885
+            }
+          }
+        },
+        "thin_nose": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.4847538967927297,
+            "std": 0.06035606500823478,
+            "min": 0.35275545716285706,
+            "median": 0.5044395923614502,
+            "p95": 0.5274369865655899,
+            "max": 0.5277220606803894,
+            "maximum_cosine_distance": 0.6472445428371429,
+            "most_distant_pair": {
+              "a": "thin_nose-seed-4201",
+              "b": "thin_nose-seed-4202",
+              "cosine_similarity": 0.35275545716285706,
+              "cosine_distance": 0.6472445726394653
+            },
+            "most_similar_pair": {
+              "a": "thin_nose-seed-4200",
+              "b": "thin_nose-seed-4203",
+              "cosine_similarity": 0.5277220606803894,
+              "cosine_distance": 0.4722779393196106
+            }
+          }
+        },
+        "wide_chin": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.5047387033700943,
+            "std": 0.053487367811033644,
+            "min": 0.4115517735481262,
+            "median": 0.5265555381774902,
+            "p95": 0.5587485432624817,
+            "max": 0.563420295715332,
+            "maximum_cosine_distance": 0.5884482264518738,
+            "most_distant_pair": {
+              "a": "wide_chin-seed-4200",
+              "b": "wide_chin-seed-4201",
+              "cosine_similarity": 0.4115517735481262,
+              "cosine_distance": 0.5884482264518738
+            },
+            "most_similar_pair": {
+              "a": "wide_chin-seed-4201",
+              "b": "wide_chin-seed-4202",
+              "cosine_similarity": 0.563420295715332,
+              "cosine_distance": 0.43657970428466797
+            }
+          }
+        },
+        "wide_nose": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.4827349931001663,
+            "std": 0.05445869949696713,
+            "min": 0.37063467502593994,
+            "median": 0.4935525506734848,
+            "p95": 0.5367681682109833,
+            "max": 0.5438185930252075,
+            "maximum_cosine_distance": 0.6293653249740601,
+            "most_distant_pair": {
+              "a": "wide_nose-seed-4201",
+              "b": "wide_nose-seed-4202",
+              "cosine_similarity": 0.37063467502593994,
+              "cosine_distance": 0.6293653249740601
+            },
+            "most_similar_pair": {
+              "a": "wide_nose-seed-4202",
+              "b": "wide_nose-seed-4203",
+              "cosine_similarity": 0.5438185930252075,
+              "cosine_distance": 0.4561814069747925
+            }
+          }
+        },
+        "prompt_centroids": {
+          "pair_count": 15,
+          "mean": 0.8702481746673584,
+          "std": 0.0247181142389791,
+          "min": 0.817934513092041,
+          "median": 0.8697523474693298,
+          "p95": 0.9034974277019501,
+          "max": 0.9257252812385559,
+          "maximum_cosine_distance": 0.18206548690795898,
+          "most_distant_pair": {
+            "a": "big_eyes",
+            "b": "wide_chin",
+            "cosine_similarity": 0.817934513092041,
+            "cosine_distance": 0.18206548690795898
+          },
+          "most_similar_pair": {
+            "a": "thin_nose",
+            "b": "wide_nose",
+            "cosine_similarity": 0.9257252812385559,
+            "cosine_distance": 0.07427471876144409
+          }
+        }
+      },
+      "zimage": {
+        "big_eyes": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.5965350965658823,
+            "std": 0.0499724982126889,
+            "min": 0.5135278701782227,
+            "median": 0.5887280702590942,
+            "p95": 0.6663226336240768,
+            "max": 0.6801450848579407,
+            "maximum_cosine_distance": 0.48647212982177734,
+            "most_distant_pair": {
+              "a": "big_eyes-seed-4200",
+              "b": "big_eyes-seed-4203",
+              "cosine_similarity": 0.5135278701782227,
+              "cosine_distance": 0.48647212982177734
+            },
+            "most_similar_pair": {
+              "a": "big_eyes-seed-4200",
+              "b": "big_eyes-seed-4202",
+              "cosine_similarity": 0.6801450848579407,
+              "cosine_distance": 0.3198549151420593
+            }
+          }
+        },
+        "pointy_chin": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.6405726075172424,
+            "std": 0.05181840806990171,
+            "min": 0.5487215518951416,
+            "median": 0.6460113823413849,
+            "p95": 0.6999858021736145,
+            "max": 0.7050433158874512,
+            "maximum_cosine_distance": 0.4512784481048584,
+            "most_distant_pair": {
+              "a": "pointy_chin-seed-4202",
+              "b": "pointy_chin-seed-4203",
+              "cosine_similarity": 0.5487215518951416,
+              "cosine_distance": 0.4512784481048584
+            },
+            "most_similar_pair": {
+              "a": "pointy_chin-seed-4201",
+              "b": "pointy_chin-seed-4203",
+              "cosine_similarity": 0.7050433158874512,
+              "cosine_distance": 0.29495668411254883
+            }
+          }
+        },
+        "small_eyes": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.6088236769040426,
+            "std": 0.0602503677535231,
+            "min": 0.5160462260246277,
+            "median": 0.6005936861038208,
+            "p95": 0.6900738924741745,
+            "max": 0.6977186799049377,
+            "maximum_cosine_distance": 0.4839537739753723,
+            "most_distant_pair": {
+              "a": "small_eyes-seed-4202",
+              "b": "small_eyes-seed-4203",
+              "cosine_similarity": 0.5160462260246277,
+              "cosine_distance": 0.4839537739753723
+            },
+            "most_similar_pair": {
+              "a": "small_eyes-seed-4200",
+              "b": "small_eyes-seed-4203",
+              "cosine_similarity": 0.6977186799049377,
+              "cosine_distance": 0.30228132009506226
+            }
+          }
+        },
+        "thin_nose": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.6073591212431589,
+            "std": 0.0871812644557266,
+            "min": 0.47356289625167847,
+            "median": 0.6183746755123138,
+            "p95": 0.7239363044500351,
+            "max": 0.7474573850631714,
+            "maximum_cosine_distance": 0.5264371037483215,
+            "most_distant_pair": {
+              "a": "thin_nose-seed-4202",
+              "b": "thin_nose-seed-4203",
+              "cosine_similarity": 0.47356289625167847,
+              "cosine_distance": 0.5264371037483215
+            },
+            "most_similar_pair": {
+              "a": "thin_nose-seed-4201",
+              "b": "thin_nose-seed-4203",
+              "cosine_similarity": 0.7474573850631714,
+              "cosine_distance": 0.2525426149368286
+            }
+          }
+        },
+        "wide_chin": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.6251518030961355,
+            "std": 0.06053193235446416,
+            "min": 0.512053370475769,
+            "median": 0.6445364058017731,
+            "p95": 0.6842885762453079,
+            "max": 0.686840832233429,
+            "maximum_cosine_distance": 0.48794662952423096,
+            "most_distant_pair": {
+              "a": "wide_chin-seed-4202",
+              "b": "wide_chin-seed-4203",
+              "cosine_similarity": 0.512053370475769,
+              "cosine_distance": 0.48794662952423096
+            },
+            "most_similar_pair": {
+              "a": "wide_chin-seed-4200",
+              "b": "wide_chin-seed-4201",
+              "cosine_similarity": 0.686840832233429,
+              "cosine_distance": 0.31315916776657104
+            }
+          }
+        },
+        "wide_nose": {
+          "rendered_images": {
+            "pair_count": 6,
+            "mean": 0.6233460605144501,
+            "std": 0.05121410311840942,
+            "min": 0.5551591515541077,
+            "median": 0.6288321912288666,
+            "p95": 0.6933978050947189,
+            "max": 0.7074607014656067,
+            "maximum_cosine_distance": 0.44484084844589233,
+            "most_distant_pair": {
+              "a": "wide_nose-seed-4202",
+              "b": "wide_nose-seed-4203",
+              "cosine_similarity": 0.5551591515541077,
+              "cosine_distance": 0.44484084844589233
+            },
+            "most_similar_pair": {
+              "a": "wide_nose-seed-4201",
+              "b": "wide_nose-seed-4203",
+              "cosine_similarity": 0.7074607014656067,
+              "cosine_distance": 0.2925392985343933
+            }
+          }
+        },
+        "prompt_centroids": {
+          "pair_count": 15,
+          "mean": 0.9158739765485128,
+          "std": 0.02963266067275979,
+          "min": 0.8771416544914246,
+          "median": 0.9121568202972412,
+          "p95": 0.9610831439495087,
+          "max": 0.9644420742988586,
+          "maximum_cosine_distance": 0.12285834550857544,
+          "most_distant_pair": {
+            "a": "big_eyes",
+            "b": "wide_nose",
+            "cosine_similarity": 0.8771416544914246,
+            "cosine_distance": 0.12285834550857544
+          },
+          "most_similar_pair": {
+            "a": "small_eyes",
+            "b": "wide_nose",
+            "cosine_similarity": 0.9644420742988586,
+            "cosine_distance": 0.03555792570114136
+          }
+        }
+      }
+    },
+    "seed_sweeps": {
+      "realvis": {
+        "scandinavian_night": {
+          "rendered_images": {
+            "pair_count": 66,
+            "mean": 0.35603794116865506,
+            "std": 0.0660869678475341,
+            "min": 0.20260736346244812,
+            "median": 0.34634268283843994,
+            "p95": 0.450564406812191,
+            "max": 0.5611861944198608,
+            "maximum_cosine_distance": 0.7973926365375519,
+            "most_distant_pair": {
+              "a": "scandinavian_night-seed-4105",
+              "b": "scandinavian_night-seed-4110",
+              "cosine_similarity": 0.20260736346244812,
+              "cosine_distance": 0.7973926067352295
+            },
+            "most_similar_pair": {
+              "a": "scandinavian_night-seed-4106",
+              "b": "scandinavian_night-seed-4110",
+              "cosine_similarity": 0.5611861944198608,
+              "cosine_distance": 0.43881380558013916
+            }
+          }
+        },
+        "spanish_30s": {
+          "rendered_images": {
+            "pair_count": 66,
+            "mean": 0.47694090279665863,
+            "std": 0.06660824594905301,
+            "min": 0.2683277130126953,
+            "median": 0.48274073004722595,
+            "p95": 0.5731576979160309,
+            "max": 0.6026474237442017,
+            "maximum_cosine_distance": 0.7316722869873047,
+            "most_distant_pair": {
+              "a": "spanish_30s-seed-4101",
+              "b": "spanish_30s-seed-4105",
+              "cosine_similarity": 0.2683277130126953,
+              "cosine_distance": 0.7316722869873047
+            },
+            "most_similar_pair": {
+              "a": "spanish_30s-seed-4100",
+              "b": "spanish_30s-seed-4109",
+              "cosine_similarity": 0.6026474237442017,
+              "cosine_distance": 0.39735257625579834
+            }
+          }
+        },
+        "spanish_50s": {
+          "rendered_images": {
+            "pair_count": 66,
+            "mean": 0.5397970766732187,
+            "std": 0.06055894748625701,
+            "min": 0.40373578667640686,
+            "median": 0.5401509404182434,
+            "p95": 0.6401407271623611,
+            "max": 0.6610759496688843,
+            "maximum_cosine_distance": 0.5962642133235931,
+            "most_distant_pair": {
+              "a": "spanish_50s-seed-4101",
+              "b": "spanish_50s-seed-4108",
+              "cosine_similarity": 0.40373578667640686,
+              "cosine_distance": 0.5962642431259155
+            },
+            "most_similar_pair": {
+              "a": "spanish_50s-seed-4105",
+              "b": "spanish_50s-seed-4110",
+              "cosine_similarity": 0.6610759496688843,
+              "cosine_distance": 0.3389240503311157
+            }
+          }
+        }
+      },
+      "zimage": {
+        "scandinavian_night": {
+          "rendered_images": {
+            "pair_count": 66,
+            "mean": 0.46730359440500085,
+            "std": 0.07809669983304668,
+            "min": 0.2930282950401306,
+            "median": 0.4723626971244812,
+            "p95": 0.5885468423366547,
+            "max": 0.6167052388191223,
+            "maximum_cosine_distance": 0.7069717049598694,
+            "most_distant_pair": {
+              "a": "scandinavian_night-seed-4100",
+              "b": "scandinavian_night-seed-4103",
+              "cosine_similarity": 0.2930282950401306,
+              "cosine_distance": 0.7069717049598694
+            },
+            "most_similar_pair": {
+              "a": "scandinavian_night-seed-4102",
+              "b": "scandinavian_night-seed-4108",
+              "cosine_similarity": 0.6167052388191223,
+              "cosine_distance": 0.3832947611808777
+            }
+          }
+        },
+        "spanish_30s": {
+          "rendered_images": {
+            "pair_count": 66,
+            "mean": 0.5804053341800516,
+            "std": 0.0485346679098746,
+            "min": 0.43349456787109375,
+            "median": 0.5786539614200592,
+            "p95": 0.6544764637947083,
+            "max": 0.7034080624580383,
+            "maximum_cosine_distance": 0.5665054321289062,
+            "most_distant_pair": {
+              "a": "spanish_30s-seed-4103",
+              "b": "spanish_30s-seed-4104",
+              "cosine_similarity": 0.43349456787109375,
+              "cosine_distance": 0.5665054321289062
+            },
+            "most_similar_pair": {
+              "a": "spanish_30s-seed-4107",
+              "b": "spanish_30s-seed-4111",
+              "cosine_similarity": 0.7034080624580383,
+              "cosine_distance": 0.29659193754196167
+            }
+          }
+        },
+        "spanish_50s": {
+          "rendered_images": {
+            "pair_count": 66,
+            "mean": 0.5893224888678753,
+            "std": 0.06594440954056172,
+            "min": 0.4343288838863373,
+            "median": 0.5955817997455597,
+            "p95": 0.6851397007703781,
+            "max": 0.7159116268157959,
+            "maximum_cosine_distance": 0.5656711161136627,
+            "most_distant_pair": {
+              "a": "spanish_50s-seed-4105",
+              "b": "spanish_50s-seed-4107",
+              "cosine_similarity": 0.4343288838863373,
+              "cosine_distance": 0.5656710863113403
+            },
+            "most_similar_pair": {
+              "a": "spanish_50s-seed-4100",
+              "b": "spanish_50s-seed-4108",
+              "cosine_similarity": 0.7159116268157959,
+              "cosine_distance": 0.2840883731842041
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt_manifest": {
+    "schema_version": "different-faces-readme-sweeps/v1",
+    "model_settings": {
+      "resolution": 1024,
+      "realvis_checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "realvis_steps": 30,
+      "realvis_cfg": 5.0,
+      "zimage_steps": 8,
+      "zimage_cfg": 1.0
+    },
+    "negative": "shirtless, bare chest, topless, nude, lingerie, cleavage, beautiful, fashion model, airbrushed, flawless skin, glamorous, heavy makeup, cartoon, illustration, anime, 3d render, cgi, deformed, disfigured, watermark, text, duplicate, two people, multiple faces",
+    "seed_sweeps": {
+      "seeds": [
+        4100,
+        4101,
+        4102,
+        4103,
+        4104,
+        4105,
+        4106,
+        4107,
+        4108,
+        4109,
+        4110,
+        4111
+      ],
+      "prompts": [
+        {
+          "id": "spanish_30s",
+          "label": "Spanish man, early 30s",
+          "text": "a Spanish man in his early 30s, short medium-brown hair, tanned skin, wearing a plain crew-neck shirt, frontal head-and-shoulders portrait, facing the camera, neutral expression, even soft light, plain neutral background, sharp focus, natural skin texture"
+        },
+        {
+          "id": "spanish_50s",
+          "label": "Spanish man, early 50s",
+          "text": "a Spanish man in his early 50s, long brown hair, pale skin, wearing a plain button-up shirt, frontal head-and-shoulders portrait, facing the camera, neutral expression, even soft light, plain neutral background, sharp focus, natural skin texture"
+        },
+        {
+          "id": "scandinavian_night",
+          "label": "Scandinavian woman at night",
+          "text": "a Scandinavian woman, wearing a casual coat or sweater, iPhone photo at night, neutral expression, frontal head-and-shoulders portrait, facing the camera, natural low-light city ambience, realistic skin texture"
+        }
+      ]
+    },
+    "scandinavian_features": {
+      "seeds": [
+        4200,
+        4201,
+        4202,
+        4203
+      ],
+      "base": "a Scandinavian woman in her late 20s, long light-blonde hair, fair skin, blue eyes, wearing a plain crew-neck sweater",
+      "framing": "frontal head-and-shoulders portrait, facing the camera, neutral expression, even soft light, plain neutral background, sharp focus, natural skin texture",
+      "prompts": [
+        {
+          "id": "wide_nose",
+          "label": "Wide nose",
+          "addition": "a wide nose with a broad bridge and rounded tip"
+        },
+        {
+          "id": "thin_nose",
+          "label": "Thin nose",
+          "addition": "a thin narrow nose with a slim bridge and refined tip"
+        },
+        {
+          "id": "big_eyes",
+          "label": "Big eyes",
+          "addition": "large wide-set eyes"
+        },
+        {
+          "id": "small_eyes",
+          "label": "Small eyes",
+          "addition": "small close-set eyes"
+        },
+        {
+          "id": "wide_chin",
+          "label": "Wide chin",
+          "addition": "a broad wide chin and square jaw"
+        },
+        {
+          "id": "pointy_chin",
+          "label": "Pointy chin",
+          "addition": "a narrow pointed chin and tapered jaw"
+        }
+      ]
+    },
+    "lens_framing": {
+      "seeds": [
+        4300,
+        4301,
+        4302,
+        4303
+      ],
+      "base": "a Spanish man in his early 30s, short medium-brown hair, tanned skin, wearing a plain crew-neck shirt, neutral expression, natural skin texture",
+      "prompts": [
+        {
+          "id": "phone_close",
+          "label": "Phone close-up",
+          "addition": "close iPhone portrait, 26 mm equivalent wide lens, slight perspective distortion, face filling most of the frame, casual available light"
+        },
+        {
+          "id": "environmental_35mm",
+          "label": "35 mm environmental portrait",
+          "addition": "35 mm environmental portrait, upper torso visible, camera at eye level, subject separated from a softly detailed everyday background"
+        },
+        {
+          "id": "studio_85mm",
+          "label": "85 mm studio portrait",
+          "addition": "85 mm portrait lens, tight head-and-shoulders framing, compressed perspective, even soft studio light, plain neutral background"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": "different-faces-readme-sweeps/v1",
+  "model_settings": {
+    "resolution": 1024,
+    "realvis_checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+    "realvis_steps": 30,
+    "realvis_cfg": 5.0,
+    "zimage_steps": 8,
+    "zimage_cfg": 1.0
+  },
+  "negative": "shirtless, bare chest, topless, nude, lingerie, cleavage, beautiful, fashion model, airbrushed, flawless skin, glamorous, heavy makeup, cartoon, illustration, anime, 3d render, cgi, deformed, disfigured, watermark, text, duplicate, two people, multiple faces",
+  "seed_sweeps": {
+    "seeds": [4100, 4101, 4102, 4103, 4104, 4105, 4106, 4107, 4108, 4109, 4110, 4111],
+    "prompts": [
+      {
+        "id": "spanish_30s",
+        "label": "Spanish man, early 30s",
+        "text": "a Spanish man in his early 30s, short medium-brown hair, tanned skin, wearing a plain crew-neck shirt, frontal head-and-shoulders portrait, facing the camera, neutral expression, even soft light, plain neutral background, sharp focus, natural skin texture"
+      },
+      {
+        "id": "spanish_50s",
+        "label": "Spanish man, early 50s",
+        "text": "a Spanish man in his early 50s, long brown hair, pale skin, wearing a plain button-up shirt, frontal head-and-shoulders portrait, facing the camera, neutral expression, even soft light, plain neutral background, sharp focus, natural skin texture"
+      },
+      {
+        "id": "scandinavian_night",
+        "label": "Scandinavian woman at night",
+        "text": "a Scandinavian woman, wearing a casual coat or sweater, iPhone photo at night, neutral expression, frontal head-and-shoulders portrait, facing the camera, natural low-light city ambience, realistic skin texture"
+      }
+    ]
+  },
+  "spanish_features": {
+    "seed": 2000,
+    "base": "a Spanish man in his early 30s, short medium-brown hair, tanned skin",
+    "framing": "frontal head-and-shoulders portrait, facing the camera, neutral expression, even soft light, plain neutral background, sharp focus, natural skin texture",
+    "prompts": [
+      {
+        "id": "gaunt",
+        "label": "Gaunt",
+        "addition": "gaunt and hollow-cheeked, weathered sun-damaged skin, plain forgettable face"
+      },
+      {
+        "id": "heavyset",
+        "label": "Heavyset",
+        "addition": "heavyset with a full round face, ruddy complexion, ordinary-looking"
+      },
+      {
+        "id": "lean",
+        "label": "Lean",
+        "addition": "lean and wiry, narrow face, freckled olive skin, homely"
+      },
+      {
+        "id": "stocky",
+        "label": "Stocky",
+        "addition": "stocky with a broad flat face and thick neck, pale indoor complexion, plain"
+      },
+      {
+        "id": "soft_featured",
+        "label": "Soft-featured",
+        "addition": "soft-featured with tired sunken eyes, sallow skin, unremarkable face"
+      },
+      {
+        "id": "rugged",
+        "label": "Rugged",
+        "addition": "barrel-chested with a wide jaw and deep-set eyes, rugged weathered skin, plain"
+      }
+    ]
+  },
+  "scandinavian_features": {
+    "seeds": [4200, 4201, 4202, 4203],
+    "base": "a Scandinavian woman in her late 20s, long light-blonde hair, fair skin, blue eyes, wearing a plain crew-neck sweater",
+    "framing": "frontal head-and-shoulders portrait, facing the camera, neutral expression, even soft light, plain neutral background, sharp focus, natural skin texture",
+    "prompts": [
+      {
+        "id": "wide_nose",
+        "label": "Wide nose",
+        "addition": "a wide nose with a broad bridge and rounded tip"
+      },
+      {
+        "id": "thin_nose",
+        "label": "Thin nose",
+        "addition": "a thin narrow nose with a slim bridge and refined tip"
+      },
+      {
+        "id": "big_eyes",
+        "label": "Big eyes",
+        "addition": "large wide-set eyes"
+      },
+      {
+        "id": "small_eyes",
+        "label": "Small eyes",
+        "addition": "small close-set eyes"
+      },
+      {
+        "id": "wide_chin",
+        "label": "Wide chin",
+        "addition": "a broad wide chin and square jaw"
+      },
+      {
+        "id": "pointy_chin",
+        "label": "Pointy chin",
+        "addition": "a narrow pointed chin and tapered jaw"
+      }
+    ]
+  },
+  "combined_features": {
+    "framing": "frontal head-and-shoulders portrait, facing the camera, neutral expression, even soft light, plain neutral background, sharp focus, natural skin texture",
+    "subjects": [
+      {
+        "id": "spanish_man",
+        "label": "Spanish man",
+        "seed": 4400,
+        "base": "a Spanish man in his early 30s, short medium-brown hair, tanned skin, wearing a plain crew-neck shirt"
+      },
+      {
+        "id": "spanish_woman",
+        "label": "Spanish woman",
+        "seed": 4401,
+        "base": "a Spanish woman in her early 30s, long medium-brown hair, olive skin, wearing a plain crew-neck sweater"
+      }
+    ],
+    "bundles": [
+      {
+        "id": "wide",
+        "label": "Wide features",
+        "addition": "a wide nose with a broad bridge and rounded tip, large wide-set eyes, a broad wide chin and square jaw"
+      },
+      {
+        "id": "narrow",
+        "label": "Narrow features",
+        "addition": "a small narrow nose with a slim bridge and refined tip, small close-set eyes, a narrow pointed chin and tapered jaw"
+      }
+    ]
+  },
+  "lens_framing": {
+    "seeds": [4300, 4301, 4302, 4303],
+    "base": "a Spanish man in his early 30s, short medium-brown hair, tanned skin, wearing a plain crew-neck shirt, neutral expression, natural skin texture",
+    "prompts": [
+      {
+        "id": "phone_close",
+        "label": "Phone close-up",
+        "addition": "close iPhone portrait, 26 mm equivalent wide lens, slight perspective distortion, face filling most of the frame, casual available light"
+      },
+      {
+        "id": "environmental_35mm",
+        "label": "35 mm environmental portrait",
+        "addition": "35 mm environmental portrait, upper torso visible, camera at eye level, subject separated from a softly detailed everyday background"
+      },
+      {
+        "id": "studio_85mm",
+        "label": "85 mm studio portrait",
+        "addition": "85 mm portrait lens, tight head-and-shoulders framing, compressed perspective, even soft studio light, plain neutral background"
+      }
+    ]
+  }
+}

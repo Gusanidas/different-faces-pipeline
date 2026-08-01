@@ -1,0 +1,476 @@
+{
+  "schema_version": "different-faces-vast-reproduction/v1",
+  "execution": {
+    "provider": "Vast.ai",
+    "instance_id": "46212073",
+    "gpu": "NVIDIA L40S"
+  },
+  "embedding_model": "InsightFace buffalo_l recognition model",
+  "model_sha256": {
+    "RealVisXL_V5.0_fp16.safetensors": "6a35a7855770ae9820a3c931d4964c3817b6d9e3c6f9c4dabb5b3a94e5643b80",
+    "z_image_turbo_bf16.safetensors": "2407613050b809ffdff18a4ac99af83ea6b95443ecebdf80e064a79c825574a6",
+    "qwen_3_4b.safetensors": "6c671498573ac2f7a5501502ccce8d2b08ea6ca2f661c458e708f36b36edfc5a"
+  },
+  "image_count": 168,
+  "face_detection_failures": [],
+  "experiments": {
+    "seed_only": {
+      "pair_count": 630,
+      "mean": 0.5233043657881873,
+      "std": 0.05511195833970383,
+      "min": 0.3600926995277405,
+      "p05": 0.43003365993499754,
+      "median": 0.5253977179527283,
+      "p95": 0.610651284456253,
+      "max": 0.6532726883888245,
+      "maximum_cosine_distance": 0.6399073004722595,
+      "most_distant_pair": {
+        "a": "seed-1007",
+        "b": "seed-1030",
+        "cosine_similarity": 0.3600926995277405,
+        "cosine_distance": 0.6399073004722595
+      },
+      "most_similar_pair": {
+        "a": "seed-1014",
+        "b": "seed-1026",
+        "cosine_similarity": 0.6532726883888245,
+        "cosine_distance": 0.34672731161117554
+      }
+    },
+    "feature_words": {
+      "realvis": {
+        "prompt_centroids": {
+          "pair_count": 15,
+          "mean": 0.8565987308820089,
+          "std": 0.03440565772039981,
+          "min": 0.7935947775840759,
+          "p05": 0.8027645885944367,
+          "median": 0.8670351505279541,
+          "p95": 0.9047528088092803,
+          "max": 0.9142102599143982,
+          "maximum_cosine_distance": 0.20640522241592407,
+          "most_distant_pair": {
+            "a": "f02",
+            "b": "f06",
+            "cosine_similarity": 0.7935947775840759,
+            "cosine_distance": 0.20640522241592407
+          },
+          "most_similar_pair": {
+            "a": "f01",
+            "b": "f05",
+            "cosine_similarity": 0.9142102599143982,
+            "cosine_distance": 0.0857897400856018
+          }
+        },
+        "all_rendered_images": {
+          "pair_count": 630,
+          "mean": 0.5241647436978325,
+          "std": 0.10087870379229376,
+          "min": 0.34068563580513,
+          "p05": 0.4001758635044098,
+          "median": 0.5080232918262482,
+          "p95": 0.7573497235774992,
+          "max": 0.8958854079246521,
+          "maximum_cosine_distance": 0.65931436419487,
+          "most_distant_pair": {
+            "a": "f02-seed-2003",
+            "b": "f06-seed-2000",
+            "cosine_similarity": 0.34068563580513,
+            "cosine_distance": 0.6593143939971924
+          },
+          "most_similar_pair": {
+            "a": "f01-seed-2003",
+            "b": "f05-seed-2003",
+            "cosine_similarity": 0.8958854079246521,
+            "cosine_distance": 0.1041145920753479
+          }
+        },
+        "farthest_prompt_ids": [
+          "f02",
+          "f06",
+          "f03",
+          "f04",
+          "f01",
+          "f05"
+        ],
+        "farthest_prompt_maximum_similarity": 0.914210319519043,
+        "farthest_render_selection": {
+          "selected": [
+            "feature_words/realvis/f02_s2003_00001_.png",
+            "feature_words/realvis/f06_s2000_00001_.png",
+            "feature_words/realvis/f01_s2004_00001_.png",
+            "feature_words/realvis/f04_s2002_00001_.png",
+            "feature_words/realvis/f03_s2001_00001_.png",
+            "feature_words/realvis/f02_s2000_00001_.png"
+          ],
+          "pair_count": 15,
+          "mean": 0.4449584762255351,
+          "std": 0.050016015895981245,
+          "min": 0.34068563580513,
+          "p05": 0.35379351675510406,
+          "median": 0.4504668712615967,
+          "p95": 0.517746740579605,
+          "max": 0.5415090918540955,
+          "maximum_cosine_distance": 0.65931436419487,
+          "most_distant_pair": {
+            "a": "f02-seed-2003",
+            "b": "f06-seed-2000",
+            "cosine_similarity": 0.34068563580513,
+            "cosine_distance": 0.6593143939971924
+          },
+          "most_similar_pair": {
+            "a": "f06-seed-2000",
+            "b": "f02-seed-2000",
+            "cosine_similarity": 0.5415090918540955,
+            "cosine_distance": 0.45849090814590454
+          }
+        }
+      }
+    },
+    "backstories": {
+      "realvis": {
+        "prompt_centroids": {
+          "pair_count": 66,
+          "mean": 0.5582818790818705,
+          "std": 0.11604028917007933,
+          "min": 0.3369012475013733,
+          "p05": 0.38698630779981613,
+          "median": 0.59462770819664,
+          "p95": 0.7027445286512375,
+          "max": 0.8265789747238159,
+          "maximum_cosine_distance": 0.6630987524986267,
+          "most_distant_pair": {
+            "a": "guillermo",
+            "b": "marcos",
+            "cosine_similarity": 0.3369012475013733,
+            "cosine_distance": 0.6630987524986267
+          },
+          "most_similar_pair": {
+            "a": "cristian",
+            "b": "sergio",
+            "cosine_similarity": 0.8265789747238159,
+            "cosine_distance": 0.17342102527618408
+          }
+        },
+        "all_rendered_images": {
+          "pair_count": 1128,
+          "mean": 0.3339808129421468,
+          "std": 0.11117246056863696,
+          "min": 0.060224972665309906,
+          "p05": 0.1600555568933487,
+          "median": 0.3352244049310684,
+          "p95": 0.5188351958990096,
+          "max": 0.7980921268463135,
+          "maximum_cosine_distance": 0.9397750273346901,
+          "most_distant_pair": {
+            "a": "nacho-seed-3003",
+            "b": "ruben-seed-3001",
+            "cosine_similarity": 0.060224972665309906,
+            "cosine_distance": 0.9397750496864319
+          },
+          "most_similar_pair": {
+            "a": "cristian-seed-3002",
+            "b": "sergio-seed-3002",
+            "cosine_similarity": 0.7980921268463135,
+            "cosine_distance": 0.20190787315368652
+          }
+        },
+        "farthest_prompt_ids": [
+          "guillermo",
+          "marcos",
+          "ruben",
+          "unai",
+          "dani",
+          "iker"
+        ],
+        "farthest_prompt_maximum_similarity": 0.6016297936439514,
+        "farthest_render_selection": {
+          "selected": [
+            "backstories/realvis/nacho_s3003_00001_.png",
+            "backstories/realvis/ruben_s3001_00001_.png",
+            "backstories/realvis/mario_s3002_00001_.png",
+            "backstories/realvis/guillermo_s3000_00001_.png",
+            "backstories/realvis/ruben_s3002_00001_.png",
+            "backstories/realvis/ruben_s3003_00001_.png",
+            "backstories/realvis/unai_s3000_00001_.png",
+            "backstories/realvis/dani_s3003_00001_.png",
+            "backstories/realvis/unai_s3003_00001_.png",
+            "backstories/realvis/marcos_s3001_00001_.png",
+            "backstories/realvis/iker_s3002_00001_.png",
+            "backstories/realvis/borja_s3003_00001_.png"
+          ],
+          "pair_count": 66,
+          "mean": 0.2287230362946337,
+          "std": 0.07241667112063875,
+          "min": 0.060224972665309906,
+          "p05": 0.11442624405026436,
+          "median": 0.22285568714141846,
+          "p95": 0.35826241225004196,
+          "max": 0.3779536485671997,
+          "maximum_cosine_distance": 0.9397750273346901,
+          "most_distant_pair": {
+            "a": "nacho-seed-3003",
+            "b": "ruben-seed-3001",
+            "cosine_similarity": 0.060224972665309906,
+            "cosine_distance": 0.9397750496864319
+          },
+          "most_similar_pair": {
+            "a": "nacho-seed-3003",
+            "b": "borja-seed-3003",
+            "cosine_similarity": 0.3779536485671997,
+            "cosine_distance": 0.6220463514328003
+          }
+        }
+      },
+      "zimage": {
+        "prompt_centroids": {
+          "pair_count": 66,
+          "mean": 0.6655567920569218,
+          "std": 0.12373357207397466,
+          "min": 0.3858846127986908,
+          "p05": 0.46799974888563156,
+          "median": 0.6636946797370911,
+          "p95": 0.8534684330224991,
+          "max": 0.9132518768310547,
+          "maximum_cosine_distance": 0.6141153872013092,
+          "most_distant_pair": {
+            "a": "cristian",
+            "b": "guillermo",
+            "cosine_similarity": 0.3858846127986908,
+            "cosine_distance": 0.6141153573989868
+          },
+          "most_similar_pair": {
+            "a": "alvaro",
+            "b": "unai",
+            "cosine_similarity": 0.9132518768310547,
+            "cosine_distance": 0.08674812316894531
+          }
+        },
+        "all_rendered_images": {
+          "pair_count": 1128,
+          "mean": 0.45927189509813665,
+          "std": 0.11130843432508696,
+          "min": 0.12284645438194275,
+          "p05": 0.2835058182477951,
+          "median": 0.4586285948753357,
+          "p95": 0.6384726703166962,
+          "max": 0.8930021524429321,
+          "maximum_cosine_distance": 0.8771535456180573,
+          "most_distant_pair": {
+            "a": "cristian-seed-3003",
+            "b": "guillermo-seed-3001",
+            "cosine_similarity": 0.12284645438194275,
+            "cosine_distance": 0.8771535158157349
+          },
+          "most_similar_pair": {
+            "a": "alvaro-seed-3001",
+            "b": "unai-seed-3001",
+            "cosine_similarity": 0.8930021524429321,
+            "cosine_distance": 0.10699784755706787
+          }
+        },
+        "farthest_prompt_ids": [
+          "cristian",
+          "guillermo",
+          "sergio",
+          "ruben",
+          "borja",
+          "marcos"
+        ],
+        "farthest_prompt_maximum_similarity": 0.7227046489715576,
+        "farthest_render_selection": {
+          "selected": [
+            "backstories/zimage/cristian_s3003_00001_.png",
+            "backstories/zimage/guillermo_s3001_00001_.png",
+            "backstories/zimage/nacho_s3000_00001_.png",
+            "backstories/zimage/ruben_s3002_00001_.png",
+            "backstories/zimage/cristian_s3001_00001_.png",
+            "backstories/zimage/marcos_s3001_00001_.png",
+            "backstories/zimage/iker_s3003_00001_.png",
+            "backstories/zimage/dani_s3000_00001_.png",
+            "backstories/zimage/ruben_s3003_00001_.png",
+            "backstories/zimage/dani_s3001_00001_.png",
+            "backstories/zimage/borja_s3001_00001_.png",
+            "backstories/zimage/guillermo_s3003_00001_.png"
+          ],
+          "pair_count": 66,
+          "mean": 0.36440174168709555,
+          "std": 0.08236850859674019,
+          "min": 0.12284645438194275,
+          "p05": 0.21424321085214615,
+          "median": 0.3677598237991333,
+          "p95": 0.4887242466211319,
+          "max": 0.5109708309173584,
+          "maximum_cosine_distance": 0.8771535456180573,
+          "most_distant_pair": {
+            "a": "cristian-seed-3003",
+            "b": "guillermo-seed-3001",
+            "cosine_similarity": 0.12284645438194275,
+            "cosine_distance": 0.8771535158157349
+          },
+          "most_similar_pair": {
+            "a": "guillermo-seed-3001",
+            "b": "guillermo-seed-3003",
+            "cosine_similarity": 0.5109708309173584,
+            "cosine_distance": 0.4890291690826416
+          }
+        }
+      }
+    }
+  },
+  "prompt_manifest": {
+    "schema_version": "different-faces-prompt-reproduction/v1",
+    "model_settings": {
+      "resolution": 1024,
+      "realvis_checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "realvis_steps": 30,
+      "realvis_cfg": 5.0,
+      "zimage_steps": 8,
+      "zimage_cfg": 1.0
+    },
+    "lock": "a Spanish man in his early 30s, short medium-brown hair, tanned skin",
+    "framing": "frontal head-and-shoulders portrait, facing the camera, neutral expression, even soft light, plain neutral background, sharp focus, natural skin texture",
+    "negative": "beautiful, model, attractive, airbrushed, flawless skin, symmetrical face, glamorous, heavy makeup, cartoon, illustration, anime, 3d render, cgi, deformed, disfigured, watermark, text, duplicate, two people, multiple faces",
+    "zimage_tail": "a very plain ordinary everyday man, not a model, not handsome, average-looking, asymmetric imperfect natural features, unretouched bare skin, amateur candid phone snapshot",
+    "seed_only": {
+      "seeds": [
+        1000,
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021,
+        1022,
+        1023,
+        1024,
+        1025,
+        1026,
+        1027,
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035
+      ]
+    },
+    "feature_words": {
+      "seeds": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "prompts": [
+        {
+          "id": "f01",
+          "label": "gaunt",
+          "addition": "gaunt and hollow-cheeked, weathered sun-damaged skin, plain forgettable face"
+        },
+        {
+          "id": "f02",
+          "label": "heavyset",
+          "addition": "heavyset with a full round face, ruddy complexion, ordinary-looking"
+        },
+        {
+          "id": "f03",
+          "label": "lean",
+          "addition": "lean and wiry, narrow face, freckled olive skin, homely"
+        },
+        {
+          "id": "f04",
+          "label": "stocky",
+          "addition": "stocky with a broad flat face and thick neck, pale indoor complexion, plain"
+        },
+        {
+          "id": "f05",
+          "label": "soft-featured",
+          "addition": "soft-featured with tired sunken eyes, sallow skin, unremarkable face"
+        },
+        {
+          "id": "f06",
+          "label": "rugged",
+          "addition": "barrel-chested with a wide jaw and deep-set eyes, rugged weathered skin, plain"
+        }
+      ]
+    },
+    "backstories": {
+      "seeds": [
+        3000,
+        3001,
+        3002,
+        3003
+      ],
+      "prompts": [
+        {
+          "id": "mario",
+          "text": "Mario, from Albacete, from a working-class family, works as a delivery driver hauling boxes all day and does judo on weekends; weather-beaten sun-reddened skin, a small scar through one eyebrow, a nose broken once and healed crooked, tired easygoing look"
+        },
+        {
+          "id": "borja",
+          "text": "Borja, from Madrid, from a wealthy family, studied business administration and works as a consultant; clean well-groomed appearance, smooth cared-for skin, faint confident smirk, crisp shirt collar just visible"
+        },
+        {
+          "id": "iker",
+          "text": "Iker, from Bilbao, son of fishermen, works as a welder in a shipyard and climbs mountains on weekends; rugged wind-chapped ruddy skin, stern calm jaw, faint burn mark on the neck"
+        },
+        {
+          "id": "ruben",
+          "text": "Ruben, from Sevilla, working-class, waits tables in a bar in the old town and plays flamenco guitar at night; dark expressive deep-set eyes, a couple of days unshaven, quick warm half-grin"
+        },
+        {
+          "id": "alvaro",
+          "text": "Alvaro, from Valencia, middle-class, a high-school physical-education teacher and road cyclist; fit healthy glow, faint cyclist tan lines at the collar, crow's feet from squinting into the sun"
+        },
+        {
+          "id": "nacho",
+          "text": "Nacho, from Zaragoza, grew up on a farm, works as an agricultural engineer and hunts on weekends; broad honest face, deep field tan, sun-creased forehead, peeling sunburnt nose, plain steady expression"
+        },
+        {
+          "id": "cristian",
+          "text": "Cristian, from Murcia, working-class, labors in plastic greenhouses and races motocross; wiry frame, very dark leathery tan, two small scars on the cheek, intense narrow squinting eyes"
+        },
+        {
+          "id": "guillermo",
+          "text": "Guillermo, from Salamanca, from an academic family, a university history researcher who plays chess; wire-frame glasses, thoughtful slightly distracted look, pale indoor complexion beneath the tan"
+        },
+        {
+          "id": "dani",
+          "text": "Dani, from Malaga, working-class, a beach lifeguard and surf instructor; deep even beach tan, salt-dried skin, scatter of freckles across the nose, relaxed sunny squint"
+        },
+        {
+          "id": "unai",
+          "text": "Unai, from Pamplona, middle-class, a hospital nurse who runs marathons; lean sinewy build, calm tired eyes with faint shadows, kind steady expression"
+        },
+        {
+          "id": "sergio",
+          "text": "Sergio, from A Coruna, a fisherman who plays for the village football team; wind-reddened cheeks, chipped front tooth just showing, weather-beaten salt-worn skin, broad plain face"
+        },
+        {
+          "id": "marcos",
+          "text": "Marcos, from Toledo, a motorcycle mechanic who restores old bikes; faint grease smudge on the temple, small scar on the cheek, tattoo edge on the neck, wry knowing half-smile"
+        }
+      ]
+    }
+  }
+}

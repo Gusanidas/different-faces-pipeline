@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+dist/
+build/
+
+# Full-resolution generation pools and model weights do not belong in git.
+output/
+work/
+*.safetensors
+*.onnx
+*.bin
+
+# The curated, web-sized story images in assets/ are intentionally tracked.
+
