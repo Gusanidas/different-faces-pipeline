@@ -65,7 +65,7 @@ Each row below contains all 66 pairwise ArcFace comparisons among the 12 contigu
 ArcFace cosine similarity is `1.0` for identical embedding directions; lower values indicate more distinct faces. In this overview, maximum cosine difference means:
 
 $$
-d_{\max}=1-\min_{i<j}\cos(x_i,x_j)
+d_{\max}=1-\min_{i\lt j}\cos(x_i,x_j)
 $$
 
 ArcFace distance is useful for searching a large pool, but it is not the definition of a different person. Two faces can be far apart in embedding space because of pose, lighting, styling, or an artifact and still look like the same person to a human. Many of these faces look extremely similar to me despite having decent cosine distance. The pipeline therefore uses ArcFace to create shortlists and detect likely collisions, but subjective identity is decided by human review.
@@ -341,7 +341,7 @@ $$
 \max_{q\in K\cup A}y^\top q\le\tau,
 \qquad
 \tau=\max\left(
-\mathrm{p95}\{x_i^\top x_j:i<j\},
+\mathrm{p95}\{x_i^\top x_j:i\lt j\},
 0.45
 \right)
 $$
